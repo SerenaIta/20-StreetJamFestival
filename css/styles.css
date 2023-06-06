@@ -14,6 +14,10 @@ h1 {
   margin: 0 0 0 0;
 }
 
+.SJF-logo {
+  height: 102px;
+}
+
 nav {
   margin: 24px 0 24px 45px;
   font-family: 'Archivo Narrow', sans-serif;
@@ -57,10 +61,6 @@ nav a {
   }
 }
 
-footer {
-  background-color: #303030;
-}
-
 header div {
   background-color: #303030;
   padding: 24px 0 24px 45px;
@@ -85,14 +85,28 @@ h2 {
   font-size: 20px;
 }
 
-footer p {
-  color: white;
+footer {
+  background-color: #303030;
+  padding: 24px 0 24px 45px;
 }
 
-.SJF-logo {
-  height: 102px;
+footer p {
+  color: white;
+  margin: 0;
+  font-size: 13px;
+}
+
+.SJF-logo-footer {
+  height: 84px;
+  padding-bottom: 48px;
+}
+
+.container-social-icons {
+  display: flex;
+  flex-direction: row;
 }
 
 .social-icons {
-  height: 35px;
+  max-height: 35px;
+  padding-bottom: 48px;
 }
