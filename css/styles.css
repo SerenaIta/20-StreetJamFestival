@@ -17,7 +17,7 @@ header div {
   background-color: #303030;
 }
 
-p {
+p, h3 {
   font-family: 'Archivo Narrow', sans-serif;
 }
 
