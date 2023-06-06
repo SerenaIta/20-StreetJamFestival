@@ -17,12 +17,30 @@ header div {
   background-color: #303030;
 }
 
-p, h3 {
+p {
   font-family: 'Archivo Narrow', sans-serif;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-weight: 700;
 }
 
 h2 {
   font-family: "social-gothic-stencil", sans-serif;
   font-weight: 700;
   font-style: normal;
+}
+
+footer p {
+  color: white;
+}
+
+.SJF-logo {
+  height: 102px;
+}
+
+.social-icons {
+  height: 35px;
 }
