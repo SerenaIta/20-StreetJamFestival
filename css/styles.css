@@ -1,10 +1,22 @@
 body {
   max-width: 320px;
   margin: auto;
-  background: #ddd;
+  background: white
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+footer {
+  background-color: #303030;
+}
+
+header div {
+  background-color: #303030;
+}
+
+p {
+  font-family: 'Archivo Narrow', sans-serif;
 }
