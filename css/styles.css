@@ -20,3 +20,9 @@ header div {
 p {
   font-family: 'Archivo Narrow', sans-serif;
 }
+
+h2 {
+  font-family: "social-gothic-stencil", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
