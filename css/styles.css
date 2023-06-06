@@ -66,10 +66,6 @@ header div {
   }
 }
 
-
-
-
-
 main {
   padding-bottom: 48px;
 }
@@ -110,13 +106,6 @@ main img {
   margin-bottom: 24px;
 }
 
-
-
-
-
-
-
-
 footer {
   background-color: #303030;
   padding: 24px 0 24px 45px;
@@ -141,4 +130,5 @@ footer p {
 .social-icons {
   max-height: 35px;
   padding-bottom: 48px;
+  padding-right: 35px;
 }
