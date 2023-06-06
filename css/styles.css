@@ -19,7 +19,7 @@ h1 {
 }
 
 nav {
-  margin: 24px 0 24px 45px;
+  margin: 24px 0 0 45px;
   font-family: 'Archivo Narrow', sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -28,6 +28,11 @@ nav {
 nav a {
   color: black;
   padding-right: 7px;
+}
+
+header div {
+  background-color: #303030;
+  padding: 24px 0 24px 45px;
 }
 
 .carousel-container {
@@ -61,21 +66,17 @@ nav a {
   }
 }
 
-header div {
-  background-color: #303030;
-  padding: 24px 0 24px 45px;
-}
+
+
+
+
+
 
 p {
   font-family: 'Archivo Narrow', sans-serif;
   font-weight: 400;
   font-size: 15px;
-}
-
-h3 {
-  font-family: 'Archivo Narrow', sans-serif;
-  font-weight: 700;
-  font-size: 15px;
+  margin: 24px 21px 0 45px;
 }
 
 h2 {
@@ -83,7 +84,32 @@ h2 {
   font-weight: 700;
   font-style: normal;
   font-size: 20px;
+  padding: 48px 0 0 45px;
+  margin: 0;
 }
+
+h3 {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 24px 0 0 45px;
+  margin: 0;
+}
+
+.description-elements {
+  margin: 0 21px 0 45px;
+}
+
+main img {
+  padding-top: 24px;
+}
+
+
+
+
+
+
+
 
 footer {
   background-color: #303030;
