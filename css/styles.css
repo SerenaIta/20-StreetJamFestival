@@ -70,7 +70,9 @@ header div {
 
 
 
-
+main {
+  padding-bottom: 48px;
+}
 
 p {
   font-family: 'Archivo Narrow', sans-serif;
