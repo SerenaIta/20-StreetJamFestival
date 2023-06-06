@@ -1,6 +1,7 @@
 body {
-  max-width: 320px;
-  margin: auto;
+  max-width: 375px;
+  margin: 0;
+  padding: 0;
   background: white
 }
 
@@ -9,12 +10,60 @@ img {
   max-width: 100%;
 }
 
+h1 {
+  margin: 0 0 0 0;
+}
+
+nav {
+  margin: 24px 0 24px 45px;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+nav a {
+  color: black;
+  padding-right: 7px;
+}
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  animation: scroll 10s linear infinite;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@keyframes scroll {
+  0%, 25% {
+    transform: translateX(0);
+  }
+  30%, 55% {
+    transform: translateX(-100%);
+  }
+  60%, 85% {
+    transform: translateX(-200%);
+  }
+  90%, 100% {
+    transform: translateX(0%);
+  }
+}
+
 footer {
   background-color: #303030;
 }
 
 header div {
   background-color: #303030;
+  padding: 24px 0 24px 45px;
 }
 
 p {
