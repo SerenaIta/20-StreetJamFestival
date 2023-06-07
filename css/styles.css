@@ -91,6 +91,10 @@ h2 {
   margin: 0;
 }
 
+.more-margin {
+  padding: 48px 0 24px 45px;;
+}
+
 h3 {
   font-family: 'Archivo Narrow', sans-serif;
   font-weight: 700;
