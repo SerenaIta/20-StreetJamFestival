@@ -123,6 +123,10 @@ main a:visited {
   color: #569eb2;
 }
 
+.maps {
+  padding-top: 24px;
+}
+
 footer {
   background-color: #303030;
   padding: 24px 0 24px 45px;
