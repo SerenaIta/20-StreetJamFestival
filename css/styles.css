@@ -19,7 +19,7 @@ h1 {
 }
 
 nav {
-  margin: 24px 0 0 45px;
+  margin: 24px 0 24px 45px;
   font-family: 'Archivo Narrow', sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -27,12 +27,16 @@ nav {
 
 nav a {
   color: black;
-  padding-right: 7px;
+  padding-right: 10px;
 }
 
 header div {
   background-color: #303030;
   padding: 24px 0 24px 45px;
+  color: white;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .carousel-container {
@@ -49,6 +53,7 @@ header div {
   width: 100%;
   height: auto;
   object-fit: cover;
+  padding-top: 0;
 }
 
 @keyframes scroll {
@@ -131,4 +136,9 @@ footer p {
   max-height: 35px;
   padding-bottom: 48px;
   padding-right: 35px;
+}
+
+strong {
+  text-decoration: underline;
+  font-weight: 400;
 }
