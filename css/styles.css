@@ -122,6 +122,14 @@ footer p {
   font-size: 13px;
 }
 
+footer a:link {
+  color: white;
+}
+
+footer a:visited {
+  color: #569eb2;
+}
+
 .SJF-logo-footer {
   height: 84px;
   padding-bottom: 48px;
@@ -136,9 +144,4 @@ footer p {
   max-height: 35px;
   padding-bottom: 48px;
   padding-right: 35px;
-}
-
-strong {
-  text-decoration: underline;
-  font-weight: 400;
 }
