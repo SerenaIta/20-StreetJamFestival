@@ -115,6 +115,14 @@ main img {
   margin-bottom: 24px;
 }
 
+main a:link {
+  color: black;
+}
+
+main a:visited {
+  color: #569eb2;
+}
+
 footer {
   background-color: #303030;
   padding: 24px 0 24px 45px;
@@ -131,7 +139,7 @@ footer a:link {
 }
 
 footer a:visited {
-  color: #569eb2;
+  color: white;
 }
 
 .SJF-logo-footer {
