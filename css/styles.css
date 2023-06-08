@@ -1,6 +1,6 @@
 body {
   max-width: 375px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   background: white
 }
@@ -28,9 +28,8 @@ h1 {
 }
 
 .SJF-logo {
-  animation: fade 2s ease-in-out;
+  animation: fade 1s ease-in-out;
 }
-
 
 nav {
   margin: 24px 0 24px 45px;
@@ -183,7 +182,26 @@ footer a:visited {
   padding-right: 35px;
 }
 
+.background-img-music {
+  background-image: url(../img/musical-note.png);
+  background-position-x: 203px;
+  background-position-y: 46px;
+  background-size: 177px;
+  background-repeat: no-repeat;
+}
 
-.backgroung-img {
-  background-image: ;
+.background-img-graffiti {
+  background-image: url(../img/spray.png);
+  background-position-x: 263px;
+  background-position-y: 134px;
+  background-size: 125px;
+  background-repeat: no-repeat;
+}
+
+.background-img-skate {
+  background-image: url(../img/skateboard.png);
+  background-position-x: 273px;
+  background-position-y: 48px;
+  background-size: 122px;
+  background-repeat: no-repeat;
 }
