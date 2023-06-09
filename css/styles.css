@@ -1,3 +1,9 @@
+html {
+  background-image: url(../img/background-html.png);
+  background-size: 200px;
+  background-repeat: round;
+}
+
 body {
   max-width: 375px;
   margin: 0 auto;
@@ -40,11 +46,12 @@ nav {
 
 nav a {
   color: black;
-  padding-right: 10px;
+  padding-right: 32px;
 }
 
 header div {
-  background-color: #303030;
+  background-image: url(../img/background-header.png);
+  background-size: cover;
   padding: 24px 0 24px 45px;
   color: white;
   font-family: 'Archivo Narrow', sans-serif;
@@ -141,7 +148,8 @@ main a:visited {
 }
 
 footer {
-  background-color: #303030;
+  background-image: url(../img/background-footer.png);
+  background-size: contain;
   padding: 24px 0 24px 45px;
 }
 
